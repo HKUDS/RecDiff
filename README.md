@@ -4,6 +4,25 @@ This is the PyTorch-based implementation for RecDiff model proposed in this pape
 ![model](./framework_00.png)
 ## Abstract
 Social recommendation has emerged as a powerful approach to enhance personalized recommendations by leveraging the social connections among users, such as following and friend relations observed in online social platforms. The fundamental assumption of social recommendation is that socially-connected users exhibit homophily in their preference patterns. This means that users connected by social ties tend to have similar tastes in user-item activities, such as rating and purchasing. However, this assumption is not always valid due to the presence of irrelevant and false social ties, which can contaminate user embeddings and adversely affect recommendation accuracy. To address this challenge, we propose a novel diffusion-based social denoising framework for recommendation (RecDiff). Our approach utilizes a simple yet effective hidden-space diffusion paradigm to alleivate the noisy effect in the compressed and dense representation space. By performing multi-step noise diffusion and removal, RecDiff possesses a robust ability to identify and eliminate noise from the encoded user representations, even when the noise levels vary. The diffusion module is optimized in a downstream task-aware manner, thereby maximizing its ability to enhance the recommendation process. We conducted extensive experiments to evaluate the efficacy of our framework, and the results demonstrate its superiority in terms of recommendation accuracy, training efficiency, and denoising effectiveness.
+
+## Code Structures 
+    .
+    ├── DataHandler.py
+    ├── main.py
+    ├── param.py
+    ├── utils.py
+    ├── Utils                    
+    │   ├── TimeLogger.py            
+    │   ├── Utils.py                             
+    ├── models
+    │   ├── diffusion_process.py
+    │   ├── model.py
+    ├── scripts
+    │   ├── run_ciao.sh
+    │   ├── run_epinions.sh
+    │   ├── run_yelp.sh
+    └── README
+
 ## Environment
 - python=3.8
 - torch=1.12.1
