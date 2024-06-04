@@ -1,4 +1,4 @@
-# Diffusion Model for Social Recommendation (RecDiff)
+# RecDiff: Diffusion Model for Social Recommendation
 This is the PyTorch-based implementation for RecDiff model proposed in this paper:
 >Diffusion Model for Social Recommendation
 ![model](./framework_00.png)
