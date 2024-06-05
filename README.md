@@ -58,6 +58,10 @@ Please unzip the datasets first. Also you need to create the `History/`+'dataset
   ```shell
   bash scripts/run_yelp.sh
   ```
+## Evaluation Results
+# Overall Performance:
+![performance](https://github.com/Zongwei9888/Experiment_Images/blob/94f30406a5fdb6747a215744e87e8fdee4bdb470/RecDiff_images/Overall_performs.png)
+
 ## Citation
 If you find this work useful for your research, please consider citing our paper:
 
