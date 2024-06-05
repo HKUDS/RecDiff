@@ -58,3 +58,14 @@ Please unzip the datasets first. Also you need to create the `History/`+'dataset
   ```shell
   bash scripts/run_yelp.sh
   ```
+## Citation
+If you find this work useful for your research, please consider citing our paper:
+
+    @misc{li2024recdiff,
+          title={RecDiff: Diffusion Model for Social Recommendation}, 
+          author={Zongwei Li and Lianghao Xia and Chao Huang},
+          year={2024},
+          eprint={2406.01629},
+          archivePrefix={arXiv},
+          primaryClass={cs.IR}
+    }
