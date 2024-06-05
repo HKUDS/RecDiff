@@ -60,7 +60,9 @@ Please unzip the datasets first. Also you need to create the `History/`+'dataset
   ```
 ## Evaluation Results
 ### Overall Performance:
+RecDiff outperforms the baseline model with various top-N settings.
 ![performance](https://github.com/Zongwei9888/Experiment_Images/blob/94f30406a5fdb6747a215744e87e8fdee4bdb470/RecDiff_images/Overall_performs.png)
+![performance](https://github.com/Zongwei9888/Experiment_Images/blob/f8cb0e7ca95a96f8d1d976d7304195e304cf41a8/RecDiff_images/Top-n_performance.png)
 
 ## Citation
 If you find this work useful for your research, please consider citing our paper:
