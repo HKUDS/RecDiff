@@ -8,7 +8,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2406.01629-b31b1b.svg?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.01629)
 [![CIKM 2024](https://img.shields.io/badge/CIKM-2024-purple.svg?style=for-the-badge)](https://cikm2024.org/)
 
-![RecDiff Banner](https://github.com/Zongwei9888/Experiment_Images/blob/b264fe0bae60741d88bf58f249da99c1a9272bb8/RecDiff_images/Recdiff.jpeg)
+![RecDiff Banner](https://github.com/Zongwei9888/Experiment_Images/blob/2c5e5abdc4f45a4be46b3e35d408e69c235ed645/RecDiff_images/Recdiff.jpeg)
 
 ### 🔥 *Breaking the noise barrier in social recommendations with quantum-inspired diffusion*
 
