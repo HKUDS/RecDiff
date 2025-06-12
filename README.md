@@ -8,7 +8,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2406.01629-b31b1b.svg?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.01629)
 [![CIKM 2024](https://img.shields.io/badge/CIKM-2024-purple.svg?style=for-the-badge)](https://cikm2024.org/)
 
-![RecDiff Banner](https://github.com/Zongwei9888/Experiment_Images/blob/2c5e5abdc4f45a4be46b3e35d408e69c235ed645/RecDiff_images/Recdiff.jpeg)
+<img src="https://github.com/Zongwei9888/Experiment_Images/blob/2c5e5abdc4f45a4be46b3e35d408e69c235ed645/RecDiff_images/Recdiff.jpeg" alt="RecDiff Banner" width="600" height="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
 
 ### 🔥 *Breaking the noise barrier in social recommendations with quantum-inspired diffusion*
 
@@ -32,7 +32,9 @@ RecDiff pioneers the integration of **hidden-space diffusion processes** with **
 - 🔬 **Hidden-Space Processing**: Efficient diffusion in compressed representation space
 - 🎪 **Adaptive Noise Handling**: Dynamic adaptation to varying social noise levels
 
-![Model Architecture](./framework_00.png)
+<div align="center">
+<img src="./framework_00.png" alt="RecDiff Model Architecture" width="700" height="400" style="border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);" />
+</div>
 
 ---
 
@@ -254,9 +256,13 @@ gantt
 
 ### 🎖️ **Performance Visualization**
 
-![Overall Performance](https://github.com/Zongwei9888/Experiment_Images/blob/94f30406a5fdb6747a215744e87e8fdee4bdb470/RecDiff_images/Overall_performs.png)
+<div align="center">
 
-![Top-N Performance](https://github.com/Zongwei9888/Experiment_Images/blob/f8cb0e7ca95a96f8d1d976d7304195e304cf41a8/RecDiff_images/Top-n_performance.png)
+<img src="https://github.com/Zongwei9888/Experiment_Images/blob/94f30406a5fdb6747a215744e87e8fdee4bdb470/RecDiff_images/Overall_performs.png" alt="Overall Performance" width="500" height="350" style="margin: 10px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);" />
+
+<img src="https://github.com/Zongwei9888/Experiment_Images/blob/f8cb0e7ca95a96f8d1d976d7304195e304cf41a8/RecDiff_images/Top-n_performance.png" alt="Top-N Performance" width="500" height="350" style="margin: 10px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);" />
+
+</div>
 
 ---
 
