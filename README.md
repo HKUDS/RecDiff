@@ -446,3 +446,53 @@ This project is licensed under the **Apache 2.0 License** - see the [LICENSE](LI
 <sub>🎨 Crafted with ❤️ by the RecDiff Team | 🚀 Powered by Diffusion Technology | 📊 Advancing Social RecSys Research</sub>
 
 </div>
+
+---
+
+## 📊 **Data Preprocessing**
+
+### 🔄 **Data Pipeline Overview**
+
+RecDiff uses a multi-stage preprocessing pipeline to handle user-item interactions and social network data:
+
+1. **📥 Data Loading**: CSV/JSON → ID mapping → Timestamp validation
+2. **🧹 Filtering**: Remove sparse users/items (≥15 interactions)
+3. **📊 Splitting**: Train/test/validation sets with temporal consistency
+4. **💾 Storage**: Convert to sparse matrices and pickle format
+
+### 📁 **Data Format**
+
+Each dataset follows a standardized structure:
+```python
+dataset = {
+    'train': csr_matrix,      # Training interactions
+    'test': csr_matrix,       # Test interactions  
+    'val': csr_matrix,        # Validation interactions
+    'trust': csr_matrix,      # Social network
+    'userCount': int,         # Number of users
+    'itemCount': int          # Number of items
+}
+```
+
+### 🚀 **Quick Start**
+
+```bash
+# Download sample data
+wget "https://drive.google.com/uc?id=1uIR_3w3vsMpabF-mQVZK1c-a0q93hRn2" -O sample_data.zip
+unzip sample_data.zip -d datasets/
+
+# Run preprocessing (for custom data)
+cd data_preprocessing/
+python yelp_dataProcess.py
+```
+
+### 📚 **Dataset Sources**
+
+**Original Dataset Links:**
+- 🎯 **Ciao**: [Papers with Code](https://paperswithcode.com/dataset/ciao) | [Original Paper](https://arxiv.org/abs/1906.01637)
+- 💭 **Epinions**: [SNAP Stanford](https://snap.stanford.edu/data/soc-Epinions1.html) | [Papers with Code](https://paperswithcode.com/dataset/epinions)
+- 🍔 **Yelp**: Custom preprocessing pipeline (see `data_preprocessing/yelp_dataProcess.py`)
+
+**Sample Data**: [Download Link](https://drive.google.com/file/d/1uIR_3w3vsMpabF-mQVZK1c-a0q93hRn2/view?usp=drive_link)
+
+---
